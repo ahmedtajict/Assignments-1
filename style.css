@@ -33,7 +33,7 @@ h3{
     padding-left: 1%;
     padding-right: 5%;
     padding-top: 5%;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
     
 }
 .half-width img{
@@ -76,9 +76,6 @@ h3{
 #goals{
     background-color: rgba(238, 99, 99, 0.329);
 }
-#extra-hd{
-    text-align: center;
-}
 .develop-area{
     background-image: url(images/shapes/shape-1.png);
     background-repeat: no-repeat;
@@ -92,13 +89,16 @@ h3{
     background-repeat: no-repeat;
     background-position: right bottom;
     background-size: 200px;
-  
+    margin-left: 5%;
+}
+#extra-hd{
+    text-align: center;
 }
 footer{
     text-align: center;
     background-color: black;
     color: white;
-    padding: 30px 0;
+    padding: 20px;
 }
 footer span{
     color: tomato;
