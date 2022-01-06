@@ -2,8 +2,13 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+.all-section{
+    
+    margin: 3%;
+}
 h1{
     font-size: 55px;
+    font-family: 'Yeseva One', cursive;
 }
 h2{
     font-size: 40px;
@@ -12,26 +17,29 @@ h3{
     font-size: 30px;
 }
 .orange-color{
-    color: rgba(255, 68, 0, 0.644);
+    color: orangered;
 }
 .flexible-container{
     display: flex;
 }
 .vl {
     border-left: 5px solid orangered;
-    height: 150px;
-    margin-top: 9.5%;
+    height: 130px;
+    margin-top: 8.5%;
     margin-left: 10%;
   }
 .half-width{
     width: 50%;
     padding-left: 1%;
-    padding-right: 10%;
+    padding-right: 5%;
     padding-top: 5%;
 }
 .half-width img{
-    width: 60%;
+    width: 90%;
     
+}
+.line-hight{
+    line-height: 25px;
 }
 .link-button{
     text-decoration: none;
@@ -66,4 +74,21 @@ h3{
 }
 #goals{
     background-color: rgba(238, 99, 99, 0.329);
+}
+#extra-hd{
+    text-align: center;
+}
+footer{
+    font-family: 'Lobster Two', cursive;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 30px 0;
+}
+footer span{
+    color: tomato;
+}
+footer h2{
+    font-size: 30px;
+    font-style: italic;
 }
